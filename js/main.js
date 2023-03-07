@@ -43,6 +43,16 @@ const membroTeam = [
     },
 ]
 
+console.log(membroTeam);
+
+for (let i = 0; i < membroTeam.length; i++){
+    const membroCorrente = membroTeam[i];
+    console.log(membroCorrente);
+    for (let key in membroCorrente) {
+        console.log(membroCorrente[key]);
+    }
+}
+
 
 
 
