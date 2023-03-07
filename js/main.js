@@ -1,47 +1,78 @@
 'use strict';
 
 
-const membroTeam = {
-    nome: 'Wayne Barret',
-    ruolo: 'Founder & CEO',
-    foto: 'wayne-barnett-founder-ceo.jpg'
-};
+// const membroTeam = {
+//     nome: 'Wayne Barret',
+//     ruolo: 'Founder & CEO',
+//     foto: 'wayne-barnett-founder-ceo.jpg'
+// };
 
-console.log(membroTeam);
+// console.log(membroTeam);
 // document.getElementById('team').innerHTML = `${membroTeam.nome}  ${membroTeam.ruolo}  ${membroTeam.foto}`;
 
-for(let key in membroTeam) {
-    // console.log(key);
-    document.getElementById('team').innerHTML = `${membroTeam.nome}  ${membroTeam.ruolo}  ${membroTeam.foto}`;
-}
+const membroTeam = [
+    {
+        nome: 'Wayne Barret',
+        ruolo: 'Founder & CEO',
+        foto: 'wayne-barnett-founder-ceo.jpg'
+    },
+    {
+        nome: 'Angela Caroll',
+        ruolo: 'Chief Editor',
+        foto: 'angela-caroll-chief-editor.jpg'
+    },
+    {
+        nome: 'Walter Gordon',
+        ruolo: 'Office Manager',
+        foto: 'walter-gordon-office-manager.jpg'
+    },
+    {
+        nome: 'Angela Lopez',
+        ruolo: 'Social Media Manager',
+        foto: 'angela-lopez-social-media-manager.jpg'
+    },
+    {
+        nome: 'Scott Estrada',
+        ruolo: 'Developer',
+        foto: 'scott-estrada-developer.jpg'
+    },
+    {
+        nome: 'Barbara Ramos',
+        ruolo: 'Graphic Designer',
+        foto: 'barbara-ramos-graphic-designer.jpg'
+    },
+]
+
+
+
 
 // ***************************************************
 // ESEMPIO 1
 // ***************************************************
 
 //array
-const person1 = [
-    'Gaetano',
-    39,
-    'm',
-    false,
-    true,
-    'Frascolla'
-];
+// const person1 = [
+//     'Gaetano',
+//     39,
+//     'm',
+//     false,
+//     true,
+//     'Frascolla'
+// ];
 
 // ***************************************************
 // ESEMPIO 2
 // ***************************************************
 
 //oggetto
-const person = {
-    firstName: 'Gaetano',
-    lastName: 'Frascolla',
-    age: 39,
-    gender: 'm',
-    isMarried: false,
-    friends: ['Manuel', 'Paolo', 'Marco']
-};
+// const person = {
+//     firstName: 'Gaetano',
+//     lastName: 'Frascolla',
+//     age: 39,
+//     gender: 'm',
+//     isMarried: false,
+//     friends: ['Manuel', 'Paolo', 'Marco']
+// };
 
 // ***************************************************
 // ESEMPIO 3
