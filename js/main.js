@@ -8,7 +8,12 @@ const membroTeam = {
 };
 
 console.log(membroTeam);
-document.getElementById('team').innerHTML = membroTeam.nome + membroTeam.ruolo + membroTeam.foto;
+// document.getElementById('team').innerHTML = `${membroTeam.nome}  ${membroTeam.ruolo}  ${membroTeam.foto}`;
+
+for(let key in membroTeam) {
+    // console.log(key);
+    document.getElementById('team').innerHTML = `${membroTeam.nome}  ${membroTeam.ruolo}  ${membroTeam.foto}`;
+}
 
 // ***************************************************
 // ESEMPIO 1
