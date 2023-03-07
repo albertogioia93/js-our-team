@@ -1,14 +1,45 @@
 'use strict';
 
 
-// const membroTeam = {
-//     nome: 'Wayne Barret',
-//     ruolo: 'Founder & CEO',
-//     foto: 'wayne-barnett-founder-ceo.jpg'
-// };
+const prova1 = {
+    nome: 'Wayne Barret',
+    ruolo: 'Founder & CEO',
+    foto: 'wayne-barnett-founder-ceo.jpg'
+};
+
+const prova2 = {
+    nome: 'Angela Caroll',
+    ruolo: 'Chief Editor',
+    foto: 'angela-caroll-chief-editor.jpg'
+}
+const prova3 = {
+    nome: 'Walter Gordon',
+    ruolo: 'Office Manager',
+    foto: 'walter-gordon-office-manager.jpg'
+}
+const prova4 = {
+    nome: 'Angela Lopez',
+    ruolo: 'Social Media Manager',
+    foto: 'angela-lopez-social-media-manager.jpg'
+}
+const prova5 = {
+    nome: 'Scott Estrada',
+    ruolo: 'Developer',
+    foto: 'scott-estrada-developer.jpg'
+}
+const prova6 = {
+    nome: 'Barbara Ramos',
+    ruolo: 'Graphic Designer',
+    foto: 'barbara-ramos-graphic-designer.jpg'
+}
 
 // console.log(membroTeam);
-// document.getElementById('team').innerHTML = `${membroTeam.nome}  ${membroTeam.ruolo}  ${membroTeam.foto}`;
+document.getElementById('persona1').innerHTML = `${prova1.nome}  ${prova1.ruolo}  ${prova1.foto}`;
+document.getElementById('persona2').innerHTML = `${prova2.nome}  ${prova2.ruolo}  ${prova2.foto}`;
+document.getElementById('persona3').innerHTML = `${prova3.nome}  ${prova3.ruolo}  ${prova3.foto}`;
+document.getElementById('persona4').innerHTML = `${prova4.nome}  ${prova4.ruolo}  ${prova4.foto}`;
+document.getElementById('persona5').innerHTML = `${prova5.nome}  ${prova5.ruolo}  ${prova5.foto}`;
+document.getElementById('persona6').innerHTML = `${prova6.nome}  ${prova6.ruolo}  ${prova6.foto}`;
 
 const membroTeam = [
     {
@@ -43,13 +74,27 @@ const membroTeam = [
     },
 ]
 
+// PER POTER ESSERE STAMPATI SUL BROWSER, GLI OGGETTI NELL'ARRAY DEVONO ESSERE TRASFORMATI IN STRINGHE
+
 console.log(membroTeam);
+// document.getElementById('persona1').innerHTML = `${membroTeam[0]}  ${membroTeam.ruolo}  ${membroTeam.foto}`;
+// document.getElementById('persona1').innerHTML = (membroTeam);
+
+
 
 for (let i = 0; i < membroTeam.length; i++){
     const membroCorrente = membroTeam[i];
     console.log(membroCorrente);
+    // document.getElementById('team').innerHTML = `${membroCorrente.nome}  ${membroCorrente.ruolo}  ${membroCorrente.foto}`;
     for (let key in membroCorrente) {
         console.log(membroCorrente[key]);
+        // document.body.onload = addElement;
+        // function addElement() {
+        //     const newDiv = document.createElement("div");
+        //     newDiv.classList.add('membro');   
+        //     document.querySelector('.membro').innerHTML = `${membroCorrente.nome}  ${membroCorrente.ruolo}  ${membroCorrente.foto}`;
+        // }
+        // document.getElementById('persona1').innerHTML = `${membroCorrente.nome}  ${membroCorrente.ruolo}  ${membroCorrente.foto}`;
     }
 }
 
