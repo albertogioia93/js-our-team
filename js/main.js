@@ -8,6 +8,7 @@ const membroTeam = {
 };
 
 console.log(membroTeam);
+document.getElementById('team').innerHTML = membroTeam.nome + membroTeam.ruolo + membroTeam.foto;
 
 // ***************************************************
 // ESEMPIO 1

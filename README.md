@@ -28,3 +28,8 @@ Organizzare i singoli membri in card/schede
 
 COME SVOLGO QUESTO ESERCIZIO:
 
+- Creo l'array con dentro le parole chiave che contengono i dati richiesti
+- uso il ciclo adatto per eseguire questo passaggio una sola volta
+- stampo su console i dati immessi
+- creo su index.html dei contenitori per i dati
+- inserisco nei contenitori i valori ricavati dagli oggetti
